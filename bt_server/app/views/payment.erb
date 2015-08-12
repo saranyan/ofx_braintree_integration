@@ -1,0 +1,11 @@
+<script src="https://js.braintreegateway.com/v2/braintree.js"></script>
+
+<form>
+  <div id="dropin-container"></div>
+</form>
+
+<script>
+braintree.setup("<%= @token %>", "dropin", {
+  container: "dropin-container"
+});
+</script>
