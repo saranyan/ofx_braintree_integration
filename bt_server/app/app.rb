@@ -5,9 +5,9 @@ module BtServer
 
 
     Braintree::Configuration.environment = :sandbox
-    Braintree::Configuration.merchant_id = '8fzprjzxrgdnz3zp'
-    Braintree::Configuration.public_key = 'kdt8zmgfps2my25f'
-    Braintree::Configuration.private_key = 'ff4189c071d6d9ece834e2352c96d812'
+    Braintree::Configuration.merchant_id = 'xx'
+    Braintree::Configuration.public_key = 'xx'
+    Braintree::Configuration.private_key = 'xx'
 
     enable :sessions
 
